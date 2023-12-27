@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@media screen and (min-width: 360px) {
+  .card {
+    height: 69vh;
+  }
+  .header {
+    margin-top: 14%;
+  }
+}
+
+@media screen and (min-width: 414px) {
+  .card {
+    height: 67vh;
+  }
+  .header {
+    margin-top: 20%;
+  }
+}
+
+
+@media screen and (min-width: 912px) {
+  .card {
+    height: 40vh;
+  }
+
+}
